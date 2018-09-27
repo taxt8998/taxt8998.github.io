@@ -1,0 +1,326 @@
+@font-face{
+	font-family: Ailerons;
+	src:url(../fonts/glyphicons-halflings-regular.woff);
+}
+#Banner{
+	padding: 70px 50px 40px 50px;
+	font-size: 72px;
+	font-weight: lighter;
+	font-family: Ailerons;
+}
+.border-bot{
+	border-bottom: 5px solid #73883a;
+	height: 5px;
+	width: 30px;
+	margin: 10px auto 50px auto;
+	border-radius: 10px;
+}
+.flex-wrapper{
+	display: flex;
+	flex-flow: row nowrap;
+	flex: 1 0 auto;
+	text-align:center;
+	align-self: center;
+	padding-bottom: 25px;
+}
+nav{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	text-align:center;
+	margin: 0 auto;
+}
+nav ul{
+	margin: 0 auto 0 auto;
+	height: 100%;
+		justify-content: center;
+
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	padding: 0 20px 20px;	
+	margin: 0 auto;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: #73883a;
+	font-family: 'Lato';
+	font-size: 18px;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	color: #73883a
+}
+.navbar-fixed-top{
+	padding: 10px;
+	background-color: white;
+	padding-top: 15px;
+
+}
+.carousel-inner{}
+.carousel-inner .item {
+	position: relative;
+}
+.carousel-inner .item img{
+		width: 100%;
+		height: 700px;
+
+}	
+.btn-carousel{
+	background: 0 0 ;
+	color: white;
+	border-radius: 0;
+}
+.btn-default:hover{
+	background: 0 0;
+}
+.carousel-caption{
+	top:30%;	
+}
+.carousel-caption p a {
+	color: white;
+	font-family: 'Lato';
+}
+.carousel-caption h1{
+	margin-bottom: 20px;
+	letter-spacing: 10px;
+}
+.background{
+	position: absolute;
+	background : black;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+}
+.trending .container{
+	margin: 0 auto;
+}
+.product{
+	display: inline-block;
+/*	margin-left: 25px;
+	margin-bottom: 25px;*/
+}
+.img{
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+.background-item{
+	position: absolute;
+	background : black;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.2;
+	display: none;
+}
+.trending .container .product .img:hover img{
+	transform: scale(1.1);
+	transition: all 0.7s;
+	
+}
+.trending .container .product .img:hover .background-item{
+	display: inline-block;
+	border: 1px solid grey;
+}
+.trending .container .product .img img{
+	height: 370px;
+	width: 250px;
+}
+.trending .container .product .img .btn-detail{
+	position: absolute;
+	top: 50%;
+	vertical-align: center;
+	display: none;
+	border:1px white;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding: 10px;
+	border-color: white;
+	cursor: pointer;
+	font-family: 'Lato';
+
+}
+.trending .container .product .img:hover .btn-detail{
+	display: inline-block;
+	transition: all 0.7s;
+}
+.detail{
+	margin-top: 10px;
+}
+.detail .price{
+	color: grey;
+}
+.trending .container .product button{
+	margin-left: 80px ;
+}
+.btn-shop{
+	border:1px 0 1px 0;
+}
+.container .product-more{
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Lato';
+	margin: 20px auto;
+	display: block;
+}
+.container a:link{
+	color: white;
+}
+.banner{
+	width: 100%;
+	/*height: 800px;*/
+	overflow: hidden;
+}
+.banner .img-banner{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.banner .img-banner .img-banner1{
+	width: 50%;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+.banner .img-banner .img-banner1 img{
+	transform:scale(1);
+	width: 100%;
+	overflow: hidden;
+}
+
+.background-banner{
+	position: absolute;
+	background : black;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.2;
+	display: none;
+	overflow: hidden;
+}
+.banner .img-banner .img-banner1:hover .background-banner{
+	display: inline-block;
+}
+.banner .img-banner .img-banner1:hover{
+	transform: scale(1.1);
+	transition: all 0.7s;
+
+}
+.banner .img-banner .banner-caption{
+	position: absolute;
+	bottom: 10%;
+	left: 40%;
+	text-align: center;;
+	color: white;
+	font-size: 40px;
+	opacity: 0;
+
+}
+.banner .img-banner .img-banner1:hover .banner-caption{
+	opacity: 1;
+	transition: all  0.7s;
+}
+.banner2{
+	position: relative;
+	width: 1024.8;
+}
+.banner2 img{
+	width: 100%
+}
+.banner2 p{
+	position: absolute;
+	vertical-align: center;
+	top: 56%;
+	left: 33%;
+	color: white;
+	font-family: 'Lato';
+	font-size: 70px;
+	text-transform: uppercase;
+	letter-spacing: 40px;
+	opacity: 0.7;
+	
+}
+#text{
+	top: 67%;
+	text-transform: lowercase;
+	left: 47%;
+	letter-spacing: 5px;
+	font-size: 55px;
+}
+#brand{
+	top: 75%;
+	text-transform: lowercase;
+	left: 42%;
+}
+.background{
+	position: absolute;
+	background-color: black;
+	opacity: 0.4;
+	top:0px;
+	left: 15px;
+	width: 98%;
+	height: 100%;
+}
+footer{
+	margin-top: 0;
+	width: 100%;
+	height: 400px;
+	background-color: #e3e4e5
+}
+footer .container{
+	width: 70%;
+	margin: 0 auto;
+	margin-top:0;
+}
+footer .footer-section{
+	width: 30%;
+	float: left;
+	display: inline-block;
+	margin-top: 60px;
+}
+footer .footer-section ul{}
+footer .footer-section ul li{
+	list-style-type: none;
+}
+footer .footer-section ul li a{
+	text-decoration: none;
+	color:grey;
+	margin-left: 130px;
+}
+footer.footer-left{} 
+footer.footer-center ul{}
+footer.footer-center ul li{}
+footer.footer-center ul li a{}
+footer.footer-right ul{}
+footer.footer-right ul li{}
+footer.footer-right ul li a{}
+#footer-text{
+	font-size: 10px;
+	display: block;
+}
+#footer-brand{
+	letter-spacing: 10px;
+	font-size: 35px;
+	margin-top: 20px;
+	font-family: 'Ailerons';
+}
+.modal .modal-dialog{
+	width: 300px;
+	height: 400px;
+}
+.modal .modal-dialog .modal-content .modal-body form .form-group .form-control{
+	border:0 0 1px 0;
+}
+.warning{
+	color: red;
+	display: none;
+}

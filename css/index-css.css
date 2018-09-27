@@ -1,0 +1,217 @@
+@font-face{
+	font-family: Ailerons;
+	src:url(../fonts/glyphicons-halflings-regular.woff);
+}
+.container{
+	width: 100%;
+	margin: 5px 5px 5px 5px;
+/*	position: relative;*/	
+
+}
+.main-product{
+	width: 100%;
+	margin: 0 auto 4px;
+	display: inline-block;
+	background-color: #E7E7E7;
+	position: relative;
+}
+.main-product .product-img{
+	display: flex;
+	flex: 1 0 auto;
+	justify-content: center;
+	vertical-align: center;
+	
+}
+.main-product .product-img img{
+	vertical-align: center;
+}
+#shoes{
+	height: auto
+}
+#shoes .product-img {
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+}
+#shoes .product-img img{
+	width: 100%;
+}
+#clothes{
+	height: 2200px;
+}
+#clothes .product-img{
+	width: 500px;
+	height: 1440px;
+	margin: 400px auto;
+
+}
+#bags{
+	height: auto;
+}
+#bags .product-img{
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+}
+#bags .product-img img{
+	width: 100%;
+}
+#clothes .product-img img{
+	width: 100%;
+}
+.product-caption{
+	display: inline-block;
+	position: absolute;
+	bottom: 60px;
+	left: 650px;
+	padding: 20px 36px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Ailerons';
+}
+.product-caption a:hover{
+	text-decoration: none;
+}
+.product-caption:hover{
+	background-color: #313131
+}
+#caption-main{
+	bottom: 200px;
+}
+.sub-product{
+	height: 300px;
+	width: 200px;
+	background-color: white;
+	position: absolute;
+}
+#sub-product-1{
+	top:120px;
+	right: 70px;
+}
+#sub-product-2{
+	top: 800px;
+	left: 80px;
+}
+#sub-product-3{
+	top: 1200px;
+	right: 90px
+}
+.sub-product a{
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	margin: 15px auto;
+	display: flex;
+	flex: 1 0 auto;
+	justify-content: center;
+}
+.sub-product .sub-img{
+	width: 100px;
+	height: 100px;
+	margin: 20px auto
+}
+.sub-product .sub-img img{
+	width: 100%;
+	background-color: inherit;
+}
+.sub-product .sub-title{
+	font-family: 'Ailerons';
+	font-size: 24px;
+	margin: 10px auto;
+}
+.sub-product .sub-discription{
+	font-family: 'Ailerons';
+}
+.index-banner{
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+.index-banner img{
+	width: 100%;
+	height: 100%;
+}
+.index-banner p{
+	position: absolute;
+	top: 30%;
+	left: 27%;
+	color: white;
+	opacity: 0.7;
+	font-size: 70px;
+	font-family: 'Lato';
+	text-transform: lowercase;
+	letter-spacing: 40px;
+}
+.megazines{
+	width: 100%;
+	height: 1200px;
+	background-color: #e7e7e7;
+}
+.megazines h3{
+	font-family: 'Ailerons';
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: 18px;
+	color: #5C5C5C;
+	font-weight: 1px;
+	padding: 50px;
+}
+.megazines .col-md-4 a{
+	color: #5C5C5C;
+	text-decoration: none;
+}
+.megazines .col-md-4 a:hover{
+	text-decoration: none;
+}
+.stories{
+	width: 100%;
+	height: 50%;
+	margin: 30px 0px 40px 0;
+}
+.stories .stories-img{
+	width: 100%;
+	height: auto;
+}
+.stories .stories-img img{
+	width: 100%;
+}
+.stories .stories-title{
+	font-size: 32px;
+	font-family: 'Ailerons';
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.stories .stories-description{
+	font-size: 26px;
+	font-family: 'Ailerons';
+}
+.event{
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding-top: 30px;
+}
+.event .event-img{
+	width: 100%;
+	height: 700px;
+}
+.event .event-img img{
+	width: 100%;
+	height: 100%;
+}
+.event .event-title{
+	font-size: 36px;
+	font-family: 'Ailerons';
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+}
+.event .event-description{
+	font-size: 28px;
+	font-family: 'Ailerons';
+}
