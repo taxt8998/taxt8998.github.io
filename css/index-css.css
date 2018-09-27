@@ -59,7 +59,7 @@
 #clothes .product-img img{
 	width: 100%;
 }
-.main-product .product-caption{
+ .product-caption{
 	display: inline-block;
 	position: absolute;
 	bottom: 60px;
@@ -74,7 +74,7 @@
 	margin: 0 auto;
 	font-family: 'Ailerons';
 }
-.main-product .product-caption a{
+.product-caption a{
 	color: white;
 }
 .product-caption a:hover{
