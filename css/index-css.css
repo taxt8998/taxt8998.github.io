@@ -1,6 +1,6 @@
 @font-face{
 	font-family: Ailerons;
-	src:url(../fonts/glyphicons-halflings-regular.woff);
+	src:url(fonts/glyphicons-halflings-regular.woff);
 }
 .container{
 	width: 100%;
@@ -59,7 +59,7 @@
 #clothes .product-img img{
 	width: 100%;
 }
-.product-caption{
+.main-product .product-caption{
 	display: inline-block;
 	position: absolute;
 	bottom: 60px;
@@ -73,6 +73,9 @@
 	text-align: center;
 	margin: 0 auto;
 	font-family: 'Ailerons';
+}
+.main-product .product-caption a{
+	color: white;
 }
 .product-caption a:hover{
 	text-decoration: none;
