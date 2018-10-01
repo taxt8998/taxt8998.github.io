@@ -1,0 +1,93 @@
+@font-face{
+	font-family: Ailerons2;
+	src:url(../font/Ailerons/Ailerons-Typeface.otf);
+}
+.container{background-color: #e7e7e7}
+.container-detail{
+	width: 1000px;
+	height: 800px;
+	margin: 70px auto;
+
+}
+.container-detail .product-img{
+	width: 600px;
+	position: relative;
+	margin: 0;
+	display: inline-block;
+	float: left
+}
+
+.container-detail .product-img #main-img{
+	width: 80%;display: inline-block;
+	float: left;
+}
+.box{
+	position: absolute;
+	bottom: 6%;
+	right: 25%;
+	color: black;
+	text-align: center;
+	vertical-align: center;
+}
+.container-detail .product-img .sub-img{
+	width: 100px;
+	height: 150px;
+	margin: 18px 5px;
+}
+#modal-dialog2{
+	left: -15%;
+}
+.container-detail .product-img .sub-img:hover{
+	cursor: pointer;
+	opacity: 0.6;
+}
+.container-detail .product-img .sub-img img{
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+.container-detail .product-description{
+	width: 300px;
+	display: inline-block;
+	height: 800px;
+	float: left;
+	margin-left: 20px;
+}
+.container-detail .product-description .headline{
+	font-size: 40px
+}
+.container-detail .product-description .subline{
+	font-size: 34px;
+}
+.container-detail .product-description .description-text{
+	font-size: 20px;
+}
+.container-detail .product-description .btn{
+	margin: 20px 0;
+}
+.related{}
+.related .heading{
+	font-size: 40px;
+	font-family:'Ailerons2';
+	text-transform: uppercase;
+	letter-spacing: 10px; 
+}
+.related .related-img{
+	width: 22%;
+	margin: 20px;
+	height: 400px;
+
+}
+.related .related-img:hover{
+	cursor: pointer;
+}
+.mod al-dialog{
+
+}
+#modal-content2{
+	width: 800px;
+	height: 1000px;
+}
+#modal-img{
+	width: 100%;
+}

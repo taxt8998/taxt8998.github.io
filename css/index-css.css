@@ -1,6 +1,10 @@
 @font-face{
 	font-family: Ailerons;
-	src:url(fonts/glyphicons-halflings-regular.woff);
+	src:url(../fonts/glyphicons-halflings-regular.woff);
+}
+@font-face{
+	font-family: Ailerons2;
+	src:url(../font/Ailerons/Ailerons-Typeface.otf);
 }
 .container{
 	width: 100%;
@@ -26,7 +30,7 @@
 	vertical-align: center;
 }
 #shoes{
-	height: auto
+	height: 900px;
 }
 #shoes .product-img {
 	width: 800px;
@@ -46,7 +50,7 @@
 
 }
 #bags{
-	height: auto;
+	height: 900px;
 }
 #bags .product-img{
 	width: 800px;
@@ -63,7 +67,7 @@
 	display: inline-block;
 	position: absolute;
 	bottom: 60px;
-	left: 650px;
+	left: 43%;
 	padding: 20px 36px;
 	background-color: black;
 	color: white;
@@ -156,7 +160,7 @@
 	background-color: #e7e7e7;
 }
 .megazines h3{
-	font-family: 'Ailerons';
+	font-family: 'Ailerons2';
 	text-transform: uppercase;
 	font-size: 50px;
 	letter-spacing: 18px;
@@ -210,7 +214,7 @@
 .event .event-title{
 	font-size: 36px;
 	font-family: 'Ailerons';
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 	letter-spacing: 5px;
 
 }

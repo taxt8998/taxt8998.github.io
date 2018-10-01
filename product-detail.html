@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="js/style.css">
+	<link rel="stylesheet" type="text/css" href="css/index-css.css">
+	<link rel="stylesheet" type="text/css" href="css/product-detail.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+		<h1 id="Banner" class="text-center">l e k a</h1>
+		<div class="border-bot"></div>
+		<div class="flex-wrapper" id="navbar">	
+			<nav>
+				<ul>
+					<li><a class="text-center" href="index.html" target="#blank">Home</a></li>
+					<li><a class="text-center" href="">Categories+</a></li>
+					<li><a class="text-center" href="contact.html">Contact+</a></li>
+					<li><a class="text-center" href="">Megazine+</a></li>
+					<li><a class="text-center" href="product.html" target="#blank">Product+</a></li>
+					<li><a class="text-center" id="signup" data-toggle="modal" href='#modal-id'>Sign up+</a></li>
+				</ul>
+			</nav>
+		</div>
+	<main>
+		<div class="container">
+			<div class="container-detail">
+				<div class="product-img">			
+					<img id="main-img" src="img/men-product/hmprod (2).jpg">
+					<a id="modal-btn"  data-toggle="modal" href='#modal-id2'>
+						<div class="box">
+							<span class="glyphicon glyphicon-fullscreen"></span>
+						</div>
+					</a>
+									<div class="modal fade" id="modal-id2">
+										<div class="modal-dialog " id="modal-dialog2">
+											<div class="modal-content" id="modal-content2">
+												<img id="modal-img" src="">
+											</div>
+										</div>
+									</div>				
+					<div>						
+							<img id="sub-img1" class="sub-img" src="img/men-product/hmprod (2).jpg">					
+							<img id="sub-img2" class="sub-img" src="img/men-product/hmprod1.jpg">					
+							<img id="sub-img3" class="sub-img" src="img/men-product/hmprod (3).jpg">			
+							<img id="sub-img4" class="sub-img" src="img/men-product/hmprod (12).jpg">
+					</div>
+				</div>
+					
+				<div class="product-description">
+					<p class=" headline">Fine nite Jumper</p>
+					<p class=" headline">499.000 đ</p>
+					<p class=" subline">Size: XS - XL</p>
+					<p class=" description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur natus quisquam omnis odit assumenda vitae ex! Voluptatum ratione unde, ea, minima error quo, sit voluptas pariatur, alias in ipsum.</p>
+					<a href="cart.html">
+						<btn class="btn btn-default" >Add to cart</btn>
+					</a>
+				</div>	
+			</div>
+			<div class="related">
+				<h2 class="heading text-center">related</h2>
+				<img class="related-img" src="img/men-product/hmprod (11).jpg"></img>
+				<img class="related-img" src="img/men-product/hmprod (5).jpg"></img>
+				<img class="related-img" src="img/men-product/hmprod (7).jpg"></img>
+				<img class="related-img" src="img/men-product/hmprod.jpg"></img>
+			</div>
+		</div>
+	</main>
+	<div class="banner2 container" id="last-banner">
+		<img class="img-banner" src="img/beautiful-beauty-blond-289225.jpg">
+		<div class="background"></div>
+		<p class="text-center">fashion</p>
+		<p class="text-center" id="text">by</p>
+		<p class="text-center" id="brand">leka</p>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="footer-section footer-left">
+				<ul>
+					<li><a href="">Product</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Checkout</a></li>
+					<li><a href="">Account</a></li>
+					<li><a href="">Wishlist</a></li>
+				</ul>
+			</div>
+			<div class="footer-section footer-center">
+				<ul>
+					<li><a href="">Product</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Checkout</a></li>
+					<li><a href="">Account</a></li>
+					<li><a href="">Wishlist</a></li>
+				</ul>
+			</div>
+			<div class="footer-section footer-right">
+				<ul>
+					<li><a href="">Product</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Checkout</a></li>
+					<li><a href="">Account</a></li>
+					<li><a href="">Wishlist</a></li>
+				</ul>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p id="footer-text" class="text-center">H&M's business concept is to offer fashion and quality at the best price in a sustainable way. H&M has since it was founded in 1947 grown into one of the world's leading fashion companies. The content of this site is copyright-protected and is the property of H & M Hennes & Mauritz AB.</p>
+		</div>
+		<div id="footer-brand" class="text-center">leka</div>
+	</footer>
+	<div class="modal fade" id="modal-id">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title text-center">leka</h4>
+	
+				</div>
+				<div class="modal-body">
+					<form action="" method="POST" role="form">
+						<div class="form-group" id="form">
+							<label for="">Username</label>
+							<input type="text" class="form-control" id="username" placeholder="Username">
+							<p class="warning" id="warning">Username must be in UPPERCASE and have 6 - 12 characters</p>
+							
+						</div>
+					
+						<div class="form-group">
+							<label for="">Password</label>
+							<input type="password" class="form-control" id="password" placeholder="Password">
+						</div>
+												<div class="form-group">
+							<label for="">Password confirmation</label>
+							<input type="password" class="form-control" id="password-confirm" placeholder="Password confirmation">
+							<p class="warning" id="warning2">Password is not the same</p>
+						</div>
+											
+					
+						<button type="submit" class="btn btn-default" id="btn-signup">Sign up</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/signup-validate.js"></script>
+	<script type="text/javascript" src="js/product-detail-img.js"></script>
+	<script type="text/javascript" src="js/navbar-fixed.js"></script>
+</body>
+</html>

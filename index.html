@@ -18,10 +18,10 @@
 				<ul>
 					<li><a class="text-center" href="index.html" target="#blank">Home</a></li>
 					<li><a class="text-center" href="">Categories+</a></li>
-					<li><a class="text-center" href="">Contact+</a></li>
+					<li><a class="text-center" href="contact.html">Contact+</a></li>
 					<li><a class="text-center" href="">Megazine+</a></li>
 					<li><a class="text-center" href="product.html" target="#blank">Product+</a></li>
-					<li><a class="text-center" id="login" data-toggle="modal" href='#modal-id'>Login+</a></li>
+					<li><a class="text-center" id="signup" data-toggle="modal" href='#modal-id'>Sign up+</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -78,7 +78,7 @@
 		<div class="container">
 			<div class="main-product" id="shoes">
 				<a href="" class="product-img">
-					<img src="img/ProductPush_543162GGZ809087_001_Light.jpg">
+					<img id="shoes-img" src="img/543162_GGZ80_9087_001_100_0000_Light-Flashtrek-sneaker.jpg">
 				</a>
 				<div class="product-caption">
 					<a href="#"">View sneakers</a>
@@ -140,7 +140,7 @@
 		<div class="container">
 			<div class="main-product" id="bags">
 				<a href="" class="product-img">
-					<img src="img/541051_0U12T_8562_001_078_0000_Light-Laminated-leather-small-shoulder-bag.jpg">
+					<img id="bags-img" src="img/524822_0PLJX_8346_001_065_0000_Light-Standard-double-shoulder-bag.jpg">
 				</a>
 				<div class="product-caption">
 					<a href="#"">View totes</a>
@@ -267,7 +267,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title text-center">l e k a</h4>
+					<h4 class="modal-title text-center">leka</h4>
 	
 				</div>
 				<div class="modal-body">
@@ -283,41 +283,23 @@
 							<label for="">Password</label>
 							<input type="password" class="form-control" id="password" placeholder="Password">
 						</div>
+												<div class="form-group">
+							<label for="">Password confirmation</label>
+							<input type="password" class="form-control" id="password-confirm" placeholder="Password confirmation">
+							<p class="warning" id="warning2">Password is not the same</p>
+						</div>
 											
 					
-						<button type="submit" class="btn btn-primary" id="btn-login">Login</button>
+						<button type="submit" class="btn btn-default" id="btn-signup">Sign up</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<script>
-		var testusername = /^[A-Z]{6,12}$/;
-		$('#username').change(function(){
-			var uname= $(this).val();
-			if (!testusername.test(uname)){
-				$('#warning').css('display','block');
-				$('#form').addClass('has-error');
-				$('#btn-login').attr('disabled','true');
-			}
-			else{
-				$('#warning').css('display','none');
-				$('#form').removeClass('has-error');
-				$('#btn-login').removeAttr('disabled');
-			}
-		})
-
-		$(window).scroll(function(){
-			var top = $(window).scrollTop();
-			if(top>300){
-				$('#navbar').addClass('navbar-fixed-top');
-			}
-			else{
-				$('#navbar').removeClass('navbar-fixed-top');
-			}
-		})
-
-	</script>
+	
+	<script type="text/javascript" src="js/signup-validate.js"></script>
+	<script type="text/javascript" src="js/navbar-fixed.js"></script>
+	<script type="text/javascript" src="js/banner.js"></script>
 </body>
 </html>

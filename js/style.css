@@ -2,11 +2,15 @@
 	font-family: Ailerons;
 	src:url(../fonts/glyphicons-halflings-regular.woff);
 }
+@font-face{
+	font-family: Ailerons2;
+	src:url(../font/Ailerons/Ailerons-Typeface.otf);
+}
 #Banner{
 	padding: 70px 50px 40px 50px;
 	font-size: 72px;
 	font-weight: lighter;
-	font-family: Ailerons;
+	font-family: Ailerons2;
 }
 .border-bot{
 	border-bottom: 5px solid #73883a;
@@ -257,9 +261,10 @@ nav ul li a:hover{
 	font-size: 55px;
 }
 #brand{
-	top: 75%;
+	top: 77%;
 	text-transform: lowercase;
-	left: 42%;
+	left: 40%;
+	font-family: 'Ailerons2'
 }
 .background{
 	position: absolute;
@@ -306,6 +311,7 @@ footer.footer-right ul li a{}
 #footer-text{
 	font-size: 10px;
 	display: block;
+	font-family: 'Ailerons'
 }
 #footer-brand{
 	letter-spacing: 10px;
@@ -316,6 +322,10 @@ footer.footer-right ul li a{}
 .modal .modal-dialog{
 	width: 300px;
 	height: 400px;
+}
+.modal-title{
+	font-family: 'Ailerons2';
+	font-size: 30px;
 }
 .modal .modal-dialog .modal-content .modal-body form .form-group .form-control{
 	border:0 0 1px 0;

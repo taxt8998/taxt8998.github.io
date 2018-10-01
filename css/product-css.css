@@ -1,0 +1,89 @@
+@font-face{
+	font-family: Ailerons;
+	src:url(../fonts/glyphicons-halflings-regular.woff);
+}
+@font-face{
+	font-family: Ailerons2;
+	src:url(../font/Ailerons/Ailerons-Typeface.otf);
+}
+.clothes{
+	height: 800px
+}
+.container{
+	background-color: #E7E7E7;
+	margin: 5px 5px 5px 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.clothes .col-md-6{}
+.clothes .col-md-6 a{}
+.col-md-6 a img{
+	width: 100%;
+}
+.row{
+	float: left;
+	margin: 90px;
+}
+#women {
+	margin-bottom: 30px;
+}
+.background-categories{
+	opacity: 0;
+	width: 100%;
+	left: 0
+}
+.background-text{
+	font-family: 'Ailerons2';
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	position: absolute;
+	top:50%;
+	left: 45%;
+	color: white;
+	font-size: 30px;
+	display: none;
+	text-align: center;
+}
+.categories{
+		overflow: hidden;
+		position: relative;
+
+}
+.categories-img{
+	transform: scale(1);
+	transition: 0.7s all;
+
+}
+.categories:hover .background-categories{
+	opacity: 0.3;
+}
+.categories:hover .categories-img{
+	transform: scale(1.1);
+}
+.categories:hover .background-text{
+	display: flex;
+	justify-content: center;
+	flex: 1 0 auto;
+}
+#women .background-text{
+	left: 38%;
+	top: 47%;
+}
+#bby .background-text{
+	left: 42%;
+	top :43%;
+}
+#shoes{
+	height:auto
+}
+#shoes .background-text{
+	left: 33%;
+	top: 45%;
+}
+#bags{
+	height: auto;
+}
+#bags .background-text{
+	left: 40%;
+	top: 45%;
+}

@@ -1,0 +1,24 @@
+@font-face{
+	font-family: Ailerons;
+	src:url(../font/Ailerons/Ailerons-Typeface.otf);
+}
+.container{
+	background-color: #E7E7E7;
+}
+.container-form{
+	margin: 0 auto;
+	width: 800px;
+}
+legend{
+	font-size: 45px;
+	font-family: 'Ailerons2';
+	margin: 80px 0 50px 0;
+}
+.input-field{
+	margin: 30px 0px;
+}
+label{
+	font-size: 16px;
+
+
+}
